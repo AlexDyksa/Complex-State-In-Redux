@@ -2,15 +2,16 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './App.css';
 import SignIn from './containers/signInContainer';
+import Store from './components/Store'
 
 
 class App extends Component {
     render() {
         return (
-            <div className="App">
+            <div className="app">
                 <div className="app__inner">
                     <div className="app__row">
-                        <h1>Complex State in Redux</h1>
+                        <h1 className="app__title">Complex State in Redux</h1>
                     </div>
                     <div className="app__row">
                         <div className="app__col">
@@ -19,6 +20,9 @@ class App extends Component {
                         <div className="app__col">
                             {/* <SignUp /> */}
                         </div>
+                    </div>
+                    <div className="app__row app__row_display-block">
+                        <Store />
                     </div>
                 </div>
             </div>
