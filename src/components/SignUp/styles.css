@@ -1,0 +1,14 @@
+.sign-up {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.sign-up input {
+    width: 250px;
+    margin: 5px 0;
+}
+
+.sing-up__submit {
+    padding: 5px;
+}

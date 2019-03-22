@@ -3,7 +3,7 @@ import './styles.css'
 
 class Outputs extends Component {
     render() {
-        const { signIn, signUp } = this.props.data;
+        const { signIn } = this.props.data;
         console.log(signIn);
         return (
             <div className="app__outputs outputs">
