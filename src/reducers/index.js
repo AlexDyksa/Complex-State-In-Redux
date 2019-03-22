@@ -1,17 +1,8 @@
-const initialState = {
-    signIn: {
-        login: '',
-        password: ''
-    },
-    signUp: {
-        login: '',
-        password: '',
-        repeatPassword: ''
-    }
-};
+import { combineReducers } from 'redux';
+import { signInReducer } from './signInReducer';
 
-const rootReducer = (state = initialState, action) => {
-
-};
+const rootReducer = combineReducers({
+    signIn: signInReducer
+});
 
 export default rootReducer;
