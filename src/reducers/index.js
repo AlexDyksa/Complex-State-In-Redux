@@ -1,9 +1,9 @@
 const initialState = {
-    autorization: {
+    signIn: {
         login: '',
         password: ''
     },
-    registration: {
+    signUp: {
         login: '',
         password: '',
         repeatPassword: ''
