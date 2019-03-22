@@ -41,5 +41,16 @@ SignIn.propTypes = {
     )
 };
 
+SignUp.propTypes = {
+    login: PropTypes.oneOfType(
+        [PropTypes.string, PropTypes.number]
+    ),
+    password: PropTypes.oneOfType(
+        [PropTypes.string, PropTypes.number]
+    ),
+    repeatPassword: PropTypes.oneOfType(
+        [PropTypes.string, PropTypes.number]
+    )
+};
 
 export default App;
