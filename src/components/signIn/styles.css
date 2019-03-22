@@ -1,0 +1,10 @@
+.sign-in {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.sign-in input {
+    width: 250px;
+    margin: 5px 0;
+}
