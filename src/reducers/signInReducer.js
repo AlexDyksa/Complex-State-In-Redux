@@ -6,7 +6,6 @@ const initialState = {
 };
 
 export const signInReducer = (state = initialState, action) => {
-    console.log('sss');
     switch (action.type) {
         case SIGNIN_CHANGE_LOGIN:
             return {

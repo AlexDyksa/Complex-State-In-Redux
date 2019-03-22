@@ -4,6 +4,10 @@ import './styles.css'
 class SignIn extends Component {
     handleSubmit = e => e.preventDefault();
 
+    handleChangeLogin = e => this.props.changeLogin(e.target.value);
+
+    handleChangePassword = e => this.props.changePassword(e.target.value);
+
     render() {
         return (
             <form
@@ -14,13 +18,15 @@ class SignIn extends Component {
                     type="text"
                     className="sign-in__login"
                     placeholder="login"
-                    value=''
+                    value={this.props.login}
+                    onChange={this.handleChangeLogin}
                 />
                 <input
                     type="password"
                     className="sign-in__password"
                     placeholder="password"
-                    value=''
+                    value={this.props.password}
+                    onChange={this.handleChangePassword}
                 />
                 <input
                     type="submit"

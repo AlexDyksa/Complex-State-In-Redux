@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import SignIn from './components/SignIn';
+import SignIn from './containers/signInContainer';
 
 
 class App extends Component {
