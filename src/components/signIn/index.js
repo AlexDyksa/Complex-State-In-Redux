@@ -2,11 +2,17 @@ import React, { Component } from 'react';
 import './styles.css'
 
 class SignIn extends Component {
-    handleSubmit = e => e.preventDefault();
+    handleSubmit = e => {
+        e.preventDefault();
+    }
 
-    handleChangeLogin = e => this.props.changeLogin(e.target.value);
+    handleChangeLogin = e => {
+        this.props.changeLogin(e.target.value);
+    }
 
-    handleChangePassword = e => this.props.changePassword(e.target.value);
+    handleChangePassword = e => {
+        this.props.changePassword(e.target.value);
+    }
 
     render() {
         return (
