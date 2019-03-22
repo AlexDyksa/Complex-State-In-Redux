@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import SignIn from './containers/signInContainer';
-import SignUp from './containers/signUpContainer';
+import SignIn from './components/signIn';
+
 
 class App extends Component {
     render() {
@@ -9,11 +9,14 @@ class App extends Component {
             <div className="App">
                 <div className="app__inner">
                     <div className="app__row">
+                        <h1>Complex State in Redux</h1>
+                    </div>
+                    <div className="app__row">
                         <div className="app__col">
                             <SignIn />
                         </div>
                         <div className="app__col">
-                            <SignUp />
+                            {/* <SignUp /> */}
                         </div>
                     </div>
                 </div>
