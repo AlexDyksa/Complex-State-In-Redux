@@ -1,9 +1,20 @@
 .outputs {
-    background:#000;
-    color: #fff; 
-    padding: 25px;
+    margin-top: 30px;
 }
 
 .outputs__title {
+    text-align: center;
+}
+
+.outputs__result {
+    background: #000;
+    color: #fff;
+}
+
+.outputs__result table {
+    width: 100%;
+}
+
+.outputs-result__title {
     text-align: center;
 }
