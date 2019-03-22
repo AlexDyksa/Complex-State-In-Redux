@@ -4,6 +4,10 @@
     justify-content: space-around;
 }
 
+.app__row_display-block {
+    display: block; 
+}
+
 .app__col {
     width: 40%;
     border: 1px solid green;
