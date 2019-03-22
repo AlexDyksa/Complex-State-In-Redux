@@ -10,5 +10,7 @@
 
 .app__col {
     width: 40%;
-    border: 1px solid green;
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 5px;
 }

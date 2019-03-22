@@ -3,8 +3,8 @@ import './styles.css'
 
 class Outputs extends Component {
     render() {
-        const { signIn } = this.props.data;
-        console.log(signIn);
+        const { signIn, signUp } = this.props.data;
+
         return (
             <div className="app__outputs outputs">
                 <h2 className="outputs__title">Two Components - One Store for their States</h2>
@@ -14,11 +14,11 @@ class Outputs extends Component {
                     <table>
                         <tbody>
                             <tr>
-                                <td>
+                                <td className="outputs-result__left-block">
                                     Sign In: &#123; <br /> &nbsp;&nbsp;&nbsp;login: {signIn.signInLogin}, <br />&nbsp;&nbsp;&nbsp;password: {signIn.signInPassword}<br />&#125;
                                 </td>
-                                <td>
-                                    {/* Sign Up: &#123; <br /> &nbsp;&nbsp;&nbsp;login: {signUp.signUpLogin}, <br />&nbsp;&nbsp;&nbsp;password: {signUp.signUpPassword},<br />&nbsp;&nbsp;&nbsp;{signUp.signUp.repeatPassword}<br />&#125; */}
+                                <td className="outputs-result__right-block">
+                                    Sign Up: &#123; <br /> &nbsp;&nbsp;&nbsp;login: {signUp.signUpLogin}, <br />&nbsp;&nbsp;&nbsp;password: {signUp.signUpPassword},<br />&nbsp;&nbsp;&nbsp;repeatPassword: {signUp.signUpRepeatPassword}<br />&#125;
                                 </td>
                             </tr>
                         </tbody>
