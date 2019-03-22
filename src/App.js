@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './App.css';
 import SignIn from './containers/signInContainer';
 
@@ -24,5 +25,16 @@ class App extends Component {
         );
     }
 }
+
+// propTypes
+SignIn.propTypes = {
+    login: PropTypes.oneOfType(
+        [PropTypes.string, PropTypes.number]
+    ),
+    password: PropTypes.oneOfType(
+        [PropTypes.string, PropTypes.number]
+    )
+};
+
 
 export default App;
