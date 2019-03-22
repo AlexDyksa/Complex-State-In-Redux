@@ -1,9 +1,9 @@
-.app__store {
+.outputs {
     background:#000;
     color: #fff; 
-   padding: 25px;
+    padding: 25px;
 }
 
-.app-store__title {
+.outputs__title {
     text-align: center;
 }

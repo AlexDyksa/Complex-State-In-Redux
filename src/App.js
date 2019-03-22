@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './App.css';
 import SignIn from './containers/signInContainer';
-import Store from './components/Store'
+import Outputs from './components/Outputs'
 
 
 class App extends Component {
@@ -22,7 +22,7 @@ class App extends Component {
                         </div>
                     </div>
                     <div className="app__row app__row_display-block">
-                        <Store />
+                        <Outputs />
                     </div>
                 </div>
             </div>
