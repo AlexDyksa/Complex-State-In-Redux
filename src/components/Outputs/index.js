@@ -15,10 +15,10 @@ class Outputs extends Component {
                         <tbody>
                             <tr>
                                 <td className="outputs-result__left-block">
-                                    Sign In: &#123; <br /> &nbsp;&nbsp;&nbsp;login: {signIn.signInLogin}, <br />&nbsp;&nbsp;&nbsp;password: {signIn.signInPassword}<br />&#125;
+                                    Component #1: &#123; <br /> &nbsp;&nbsp;&nbsp;login: {signIn.signInLogin}, <br />&nbsp;&nbsp;&nbsp;password: {signIn.signInPassword}<br />&#125;
                                 </td>
                                 <td className="outputs-result__right-block">
-                                    Sign Up: &#123; <br /> &nbsp;&nbsp;&nbsp;login: {signUp.signUpLogin}, <br />&nbsp;&nbsp;&nbsp;password: {signUp.signUpPassword},<br />&nbsp;&nbsp;&nbsp;repeatPassword: {signUp.signUpRepeatPassword}<br />&#125;
+                                    Component #2: &#123; <br /> &nbsp;&nbsp;&nbsp;login: {signUp.signUpLogin}, <br />&nbsp;&nbsp;&nbsp;password: {signUp.signUpPassword},<br />&nbsp;&nbsp;&nbsp;repeatPassword: {signUp.signUpRepeatPassword}<br />&#125;
                                 </td>
                             </tr>
                         </tbody>
